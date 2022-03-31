@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: '', component: BasicosComponent, pathMatch: 'full' },
   { path: 'numeros', component: NumerosComponent },
   { path: 'no-comunes', component: NoComunesComponent },
-  { path: 'ordernar', component: OrdenarComponent },
+  { path: 'ordenar', component: OrdenarComponent },
   { path: '**', redirectTo: '' },
 ]
 

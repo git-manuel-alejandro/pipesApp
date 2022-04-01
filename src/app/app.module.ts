@@ -10,6 +10,7 @@ import { AppRouterModule } from './app-router.module';
 
 import localEs from '@angular/common/locales/es-CL'
 import { registerLocaleData } from '@angular/common';
+import { PersonaModule } from './persona/persona.module';
 
 registerLocaleData(localEs)
 
@@ -22,6 +23,7 @@ registerLocaleData(localEs)
     BrowserModule,
     AppRouterModule,
     SharedModule,
+    PersonaModule,
     VentasModule
 
 
